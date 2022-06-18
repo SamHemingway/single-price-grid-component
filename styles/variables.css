@@ -1,0 +1,47 @@
+:root {
+  /* Colours */
+
+  --clr-primary: hsl(179, 62%, 43%);
+  --clr-secondary: hsl(71, 73%, 54%);
+  --clr-tertiary: hsl(204, 43%, 93%);
+  --clr-content: hsl(218, 22%, 67%);
+
+  /* Font families */
+
+  --ff-primary: "Karla", sans-serif; /* Main font family used throughout design. */
+
+  /* Font sizes */
+
+  --fs-xxs: 0.875rem;
+  --fs-xs: 0.9375rem;
+  --fs-sm: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 2rem;
+
+  --fs-d-xxs: 0.875rem;
+  --fs-d-xs: 1rem;
+  --fs-d-sm: 1.125rem;
+  --fs-d-md: 1.5rem;
+  --fs-d-lg: 2rem;
+
+  /* Font weights */
+
+  --fw-reg: 400;
+  --fw-bold: 700;
+
+  /* Gutters */
+
+  --g-xs: 0.5rem; /* 8px */
+  --g-sm: 0.75rem; /* 12px */
+  --g-md: 1.125rem; /* 18px */
+  --g-lg: 1.5rem; /* 24px */
+  --g-xl: 2rem; /* 32px */
+  --g-xxl: 2.5rem; /* 40px */
+
+  /* Radii */
+
+  --rad-xs: 0.3125rem;
+  --rad-sm: 0.5rem;
+  --rad-md: 0.9375rem;
+}
