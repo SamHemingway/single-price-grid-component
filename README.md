@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/profile-card-component-TLIvKinbo8)
+- [Solution URL](https://www.frontendmentor.io/solutions/single-price-grid-component-Hq-kZFvsNa)
 - [Live Site URL](https://sh-single-price-grid-component.netlify.app/)
 
 ## My process
@@ -49,9 +49,9 @@ Users should be able to:
 
 ### What I learned
 
-- Using `transform` on an element means that any border you apply gets funky. Instead, you can use outline to get around this. Wasn't necessary in the end, decided to use margin in the end instead.
+- That I'm ready to take on more challenging designs than this.
 
-- Sometimes, chasing pixel perfection isn't necessarily the right path. I tried for so long to make the background work exactly per the design, but in the end it just felt so hacky and convoluted that it felt like what I coded was much cleaner, yet still achieved the same visual impact.
+- Using CSS methods like BEM can really slow me down, but I'm sure it'll be worth it in the long run and that I'll get faster as time goes on/it'll be necessary in the future.
 
 ### Continued development
 
