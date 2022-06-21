@@ -58,8 +58,13 @@ Users should be able to:
 ### Continued development
 
 - Remember there's no such thing as `justify-self` with flexbox. Instead, you can just use `margin: auto` for whichever direction you need 👀
+- Start using `clamp()` more often for responsive layouts where dimensions/sizing need to change.
 
 ## Author
 
 - Website - [Sam Hemingway](https://samhemingway.dev)
 - Frontend Mentor - [@SamHemingway](https://www.frontendmentor.io/profile/samhemingway)
+
+### Acknowledgements
+
+- Thanks to Alex Marshall on the FEM slack channel for teaching me about clamp() when I was curious how to achieve dynamic font-sizing/padding.

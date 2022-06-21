@@ -128,7 +128,7 @@ main {
 }
 
 .card__section {
-  padding: var(--g-lg);
+  padding: clamp(var(--g-lg), 4vw, var(--g-xxl));
   flex-direction: column;
 }
 
@@ -148,18 +148,18 @@ main {
 
 .card__section__main-header {
   color: var(--clr-primary);
-  font-size: var(--fs-lg);
+  font-size: clamp(var(--fs-lg), 4vw, var(--fs-d-md));
   margin-bottom: var(--g-lg);
 }
 
 .card__section__sub-header {
   color: var(--clr-secondary);
-  font-size: var(--fs-xs);
+  font-size: clamp(var(--fs-xs), 3vw, var(--fs-d-sm));
   margin-bottom: var(--g-md);
 }
 
 .card__section__body {
-  font-size: var(--fs-xxs);
+  font-size: clamp(var(--fs-xxs), 2vw, var(--fs-d-xs));
   line-height: 26px;
   letter-spacing: -0.175px;
 }
