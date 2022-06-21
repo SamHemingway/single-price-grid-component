@@ -5,7 +5,6 @@ TABLE OF CONTENTS
 |1| VARIABLES
 |2| BASIC ELEMENTS
 |3| CARD COMPONENT
-|4| MEDIA QUERIES
 ==============================*/
 
 /*==============================
@@ -111,7 +110,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  /* min-height: 100dvh; */
 }
 
 /*==============================
@@ -119,11 +119,12 @@ main {
 ==============================*/
 
 .card {
-  max-width: 311px;
   border-radius: var(--rad-xs);
   overflow: hidden;
   box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
-  display: grid;
+  flex-wrap: wrap;
+  max-width: 635px;
+  margin: 32px;
 }
 
 .card__section {
@@ -133,10 +134,12 @@ main {
 
 .card__section:nth-child(1n + 1) {
   background: white;
+  flex: 2 1 auto;
 }
 
 .card__section:nth-child(2n + 2) {
   background: var(--clr-primary);
+  flex: 1 0 auto;
 }
 
 .card__section:nth-child(3n + 3) {
@@ -200,42 +203,5 @@ main {
   font-weight: var(--fw-bold);
   border-radius: var(--rad-xs);
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
-  margin-top: var(--g-lg);
-}
-
-/*==============================
-|4| MEDIA QUERIES
-==============================*/
-
-@media only screen and (min-width: 650px) {
-  .card {
-    max-width: 635px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-  }
-
-  .card__section {
-    padding: var(--g-xxl);
-    max-height: 260px;
-  }
-
-  .span-2 {
-    grid-column: span 2;
-  }
-
-  .card__section__main-header {
-    font-size: var(--fs-d-md);
-  }
-
-  .card__section__sub-header {
-    font-size: var(--fs-d-sm);
-  }
-
-  .card__section__body {
-    font-size: var(--fs-d-xs);
-  }
-
-  .card__section__button {
-    margin-top: auto;
-  }
+  margin-top: 26px;
 }

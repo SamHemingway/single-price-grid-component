@@ -53,6 +53,8 @@ Users should be able to:
 
 - Using CSS methods like BEM can really slow me down, but I'm sure it'll be worth it in the long run and that I'll get faster as time goes on/it'll be necessary in the future.
 
+- How to make a layout like this work in flexbox without using media queries! Took some trial and error with the `flex-grow` and `flex-shrink` values but got there in the end 💪
+
 ### Continued development
 
 - Remember there's no such thing as `justify-self` with flexbox. Instead, you can just use `margin: auto` for whichever direction you need 👀
